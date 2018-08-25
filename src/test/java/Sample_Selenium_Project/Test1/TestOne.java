@@ -23,6 +23,8 @@ public class TestOne {
 	public void testOne() {
 		
 		driver.get("https://www.amazon.com/");
+		driver.manage().window().maximize();
+		
 	}
 	
 	@AfterTest
